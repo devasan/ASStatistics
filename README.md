@@ -1,6 +1,7 @@
- [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/devasan/ASStatistics)
-
 # ASStatistics
+
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/devasan/ASStatistics)
+
 无需插入代码即可完成一般用户行为统计
 
 - 用法

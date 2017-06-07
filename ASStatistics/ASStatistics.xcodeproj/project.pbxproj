@@ -15,12 +15,12 @@
 		DD4152BB1EE7802600FF30AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4152B91EE7802600FF30AD /* LaunchScreen.storyboard */; };
 		DD4152C61EE7802600FF30AD /* ASStatisticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4152C51EE7802600FF30AD /* ASStatisticsTests.m */; };
 		DD4152D11EE7802700FF30AD /* ASStatisticsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4152D01EE7802700FF30AD /* ASStatisticsUITests.m */; };
-		DD4152E01EE7809100FF30AD /* ASStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4152DF1EE7809100FF30AD /* ASStatistics.m */; };
-		DD4152E31EE7822B00FF30AD /* UIControl+ASCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4152E21EE7822B00FF30AD /* UIControl+ASCommon.m */; };
-		DD4152E61EE7825000FF30AD /* ASRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4152E51EE7825000FF30AD /* ASRuntime.m */; };
-		DD4152E91EE7846600FF30AD /* ASHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4152E81EE7846600FF30AD /* ASHelper.m */; };
-		DD4152EB1EE7869600FF30AD /* Analysis.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD4152EA1EE7869600FF30AD /* Analysis.plist */; };
-		DD4152F01EE789E600FF30AD /* UIViewController+ASCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4152EF1EE789E600FF30AD /* UIViewController+ASCommon.m */; };
+		DDC156881EE79AF000C199B9 /* Analysis.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDC1567D1EE79AF000C199B9 /* Analysis.plist */; };
+		DDC156891EE79AF000C199B9 /* ASHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC1567F1EE79AF000C199B9 /* ASHelper.m */; };
+		DDC1568A1EE79AF000C199B9 /* ASRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC156811EE79AF000C199B9 /* ASRuntime.m */; };
+		DDC1568B1EE79AF000C199B9 /* ASStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC156831EE79AF000C199B9 /* ASStatistics.m */; };
+		DDC1568C1EE79AF000C199B9 /* UIControl+ASCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC156851EE79AF000C199B9 /* UIControl+ASCommon.m */; };
+		DDC1568D1EE79AF000C199B9 /* UIViewController+ASCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC156871EE79AF000C199B9 /* UIViewController+ASCommon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,17 +57,17 @@
 		DD4152CC1EE7802700FF30AD /* ASStatisticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASStatisticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4152D01EE7802700FF30AD /* ASStatisticsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASStatisticsUITests.m; sourceTree = "<group>"; };
 		DD4152D21EE7802700FF30AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD4152DE1EE7809100FF30AD /* ASStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASStatistics.h; path = ../ASStatistics.h; sourceTree = "<group>"; };
-		DD4152DF1EE7809100FF30AD /* ASStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASStatistics.m; path = ../ASStatistics.m; sourceTree = "<group>"; };
-		DD4152E11EE7822B00FF30AD /* UIControl+ASCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIControl+ASCommon.h"; path = "../UIControl+ASCommon.h"; sourceTree = "<group>"; };
-		DD4152E21EE7822B00FF30AD /* UIControl+ASCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIControl+ASCommon.m"; path = "../UIControl+ASCommon.m"; sourceTree = "<group>"; };
-		DD4152E41EE7825000FF30AD /* ASRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASRuntime.h; path = ../ASRuntime.h; sourceTree = "<group>"; };
-		DD4152E51EE7825000FF30AD /* ASRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASRuntime.m; path = ../ASRuntime.m; sourceTree = "<group>"; };
-		DD4152E71EE7846600FF30AD /* ASHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASHelper.h; path = ../ASHelper.h; sourceTree = "<group>"; };
-		DD4152E81EE7846600FF30AD /* ASHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASHelper.m; path = ../ASHelper.m; sourceTree = "<group>"; };
-		DD4152EA1EE7869600FF30AD /* Analysis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Analysis.plist; path = ../Analysis.plist; sourceTree = "<group>"; };
-		DD4152EE1EE789E600FF30AD /* UIViewController+ASCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ASCommon.h"; path = "../UIViewController+ASCommon.h"; sourceTree = "<group>"; };
-		DD4152EF1EE789E600FF30AD /* UIViewController+ASCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ASCommon.m"; path = "../UIViewController+ASCommon.m"; sourceTree = "<group>"; };
+		DDC1567D1EE79AF000C199B9 /* Analysis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Analysis.plist; sourceTree = "<group>"; };
+		DDC1567E1EE79AF000C199B9 /* ASHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHelper.h; sourceTree = "<group>"; };
+		DDC1567F1EE79AF000C199B9 /* ASHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHelper.m; sourceTree = "<group>"; };
+		DDC156801EE79AF000C199B9 /* ASRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRuntime.h; sourceTree = "<group>"; };
+		DDC156811EE79AF000C199B9 /* ASRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRuntime.m; sourceTree = "<group>"; };
+		DDC156821EE79AF000C199B9 /* ASStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStatistics.h; sourceTree = "<group>"; };
+		DDC156831EE79AF000C199B9 /* ASStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStatistics.m; sourceTree = "<group>"; };
+		DDC156841EE79AF000C199B9 /* UIControl+ASCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ASCommon.h"; sourceTree = "<group>"; };
+		DDC156851EE79AF000C199B9 /* UIControl+ASCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ASCommon.m"; sourceTree = "<group>"; };
+		DDC156861EE79AF000C199B9 /* UIViewController+ASCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ASCommon.h"; sourceTree = "<group>"; };
+		DDC156871EE79AF000C199B9 /* UIViewController+ASCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ASCommon.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		DD4152AA1EE7802600FF30AD /* ASStatistics */ = {
 			isa = PBXGroup;
 			children = (
-				DDC1567B1EE79A5100C199B9 /* Statistics */,
+				DDC1567C1EE79AF000C199B9 /* Statistics */,
 				DD4152AE1EE7802600FF30AD /* AppDelegate.h */,
 				DD4152AF1EE7802600FF30AD /* AppDelegate.m */,
 				DD4152B11EE7802600FF30AD /* ViewController.h */,
@@ -158,20 +158,20 @@
 			path = ASStatisticsUITests;
 			sourceTree = "<group>";
 		};
-		DDC1567B1EE79A5100C199B9 /* Statistics */ = {
+		DDC1567C1EE79AF000C199B9 /* Statistics */ = {
 			isa = PBXGroup;
 			children = (
-				DD4152DE1EE7809100FF30AD /* ASStatistics.h */,
-				DD4152DF1EE7809100FF30AD /* ASStatistics.m */,
-				DD4152E41EE7825000FF30AD /* ASRuntime.h */,
-				DD4152E51EE7825000FF30AD /* ASRuntime.m */,
-				DD4152E71EE7846600FF30AD /* ASHelper.h */,
-				DD4152E81EE7846600FF30AD /* ASHelper.m */,
-				DD4152E11EE7822B00FF30AD /* UIControl+ASCommon.h */,
-				DD4152E21EE7822B00FF30AD /* UIControl+ASCommon.m */,
-				DD4152EE1EE789E600FF30AD /* UIViewController+ASCommon.h */,
-				DD4152EF1EE789E600FF30AD /* UIViewController+ASCommon.m */,
-				DD4152EA1EE7869600FF30AD /* Analysis.plist */,
+				DDC156821EE79AF000C199B9 /* ASStatistics.h */,
+				DDC156831EE79AF000C199B9 /* ASStatistics.m */,
+				DDC156801EE79AF000C199B9 /* ASRuntime.h */,
+				DDC156811EE79AF000C199B9 /* ASRuntime.m */,
+				DDC156841EE79AF000C199B9 /* UIControl+ASCommon.h */,
+				DDC156851EE79AF000C199B9 /* UIControl+ASCommon.m */,
+				DDC156861EE79AF000C199B9 /* UIViewController+ASCommon.h */,
+				DDC156871EE79AF000C199B9 /* UIViewController+ASCommon.m */,
+				DDC1567E1EE79AF000C199B9 /* ASHelper.h */,
+				DDC1567F1EE79AF000C199B9 /* ASHelper.m */,
+				DDC1567D1EE79AF000C199B9 /* Analysis.plist */,
 			);
 			path = Statistics;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4152EB1EE7869600FF30AD /* Analysis.plist in Resources */,
+				DDC156881EE79AF000C199B9 /* Analysis.plist in Resources */,
 				DD4152BB1EE7802600FF30AD /* LaunchScreen.storyboard in Resources */,
 				DD4152B81EE7802600FF30AD /* Assets.xcassets in Resources */,
 				DD4152B61EE7802600FF30AD /* Main.storyboard in Resources */,
@@ -310,14 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4152E01EE7809100FF30AD /* ASStatistics.m in Sources */,
 				DD4152B31EE7802600FF30AD /* ViewController.m in Sources */,
-				DD4152E61EE7825000FF30AD /* ASRuntime.m in Sources */,
-				DD4152F01EE789E600FF30AD /* UIViewController+ASCommon.m in Sources */,
-				DD4152E91EE7846600FF30AD /* ASHelper.m in Sources */,
+				DDC156891EE79AF000C199B9 /* ASHelper.m in Sources */,
+				DDC1568B1EE79AF000C199B9 /* ASStatistics.m in Sources */,
+				DDC1568D1EE79AF000C199B9 /* UIViewController+ASCommon.m in Sources */,
 				DD4152B01EE7802600FF30AD /* AppDelegate.m in Sources */,
-				DD4152E31EE7822B00FF30AD /* UIControl+ASCommon.m in Sources */,
 				DD4152AD1EE7802600FF30AD /* main.m in Sources */,
+				DDC1568C1EE79AF000C199B9 /* UIControl+ASCommon.m in Sources */,
+				DDC1568A1EE79AF000C199B9 /* ASRuntime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
