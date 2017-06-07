@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ViewController</key>
+	<dict>
+		<key>ENTER</key>
+		<string>AS_VIEWCONTROLLER_ENTER</string>
+		<key>LEAVE</key>
+		<string>AS_VIEWCONTROLLER_LEAVE</string>
+		<key>testButtonAction:</key>
+		<string>AS_TEST1_BUTTON</string>
+		<key>TestAction:</key>
+		<dict>
+			<key>10010</key>
+			<string>AS_TEST2_BUTTON</string>
+			<key>10011</key>
+			<string>AS_TEST3_BUTTON</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
