@@ -57,17 +57,17 @@
 		DD4152CC1EE7802700FF30AD /* ASStatisticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASStatisticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4152D01EE7802700FF30AD /* ASStatisticsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASStatisticsUITests.m; sourceTree = "<group>"; };
 		DD4152D21EE7802700FF30AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD4152DE1EE7809100FF30AD /* ASStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStatistics.h; sourceTree = "<group>"; };
-		DD4152DF1EE7809100FF30AD /* ASStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStatistics.m; sourceTree = "<group>"; };
-		DD4152E11EE7822B00FF30AD /* UIControl+ASCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ASCommon.h"; sourceTree = "<group>"; };
-		DD4152E21EE7822B00FF30AD /* UIControl+ASCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ASCommon.m"; sourceTree = "<group>"; };
-		DD4152E41EE7825000FF30AD /* ASRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRuntime.h; sourceTree = "<group>"; };
-		DD4152E51EE7825000FF30AD /* ASRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRuntime.m; sourceTree = "<group>"; };
-		DD4152E71EE7846600FF30AD /* ASHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHelper.h; sourceTree = "<group>"; };
-		DD4152E81EE7846600FF30AD /* ASHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHelper.m; sourceTree = "<group>"; };
-		DD4152EA1EE7869600FF30AD /* Analysis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Analysis.plist; sourceTree = "<group>"; };
-		DD4152EE1EE789E600FF30AD /* UIViewController+ASCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ASCommon.h"; sourceTree = "<group>"; };
-		DD4152EF1EE789E600FF30AD /* UIViewController+ASCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ASCommon.m"; sourceTree = "<group>"; };
+		DD4152DE1EE7809100FF30AD /* ASStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASStatistics.h; path = ../ASStatistics.h; sourceTree = "<group>"; };
+		DD4152DF1EE7809100FF30AD /* ASStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASStatistics.m; path = ../ASStatistics.m; sourceTree = "<group>"; };
+		DD4152E11EE7822B00FF30AD /* UIControl+ASCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIControl+ASCommon.h"; path = "../UIControl+ASCommon.h"; sourceTree = "<group>"; };
+		DD4152E21EE7822B00FF30AD /* UIControl+ASCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIControl+ASCommon.m"; path = "../UIControl+ASCommon.m"; sourceTree = "<group>"; };
+		DD4152E41EE7825000FF30AD /* ASRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASRuntime.h; path = ../ASRuntime.h; sourceTree = "<group>"; };
+		DD4152E51EE7825000FF30AD /* ASRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASRuntime.m; path = ../ASRuntime.m; sourceTree = "<group>"; };
+		DD4152E71EE7846600FF30AD /* ASHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASHelper.h; path = ../ASHelper.h; sourceTree = "<group>"; };
+		DD4152E81EE7846600FF30AD /* ASHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASHelper.m; path = ../ASHelper.m; sourceTree = "<group>"; };
+		DD4152EA1EE7869600FF30AD /* Analysis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Analysis.plist; path = ../Analysis.plist; sourceTree = "<group>"; };
+		DD4152EE1EE789E600FF30AD /* UIViewController+ASCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ASCommon.h"; path = "../UIViewController+ASCommon.h"; sourceTree = "<group>"; };
+		DD4152EF1EE789E600FF30AD /* UIViewController+ASCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ASCommon.m"; path = "../UIViewController+ASCommon.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		DD4152AA1EE7802600FF30AD /* ASStatistics */ = {
 			isa = PBXGroup;
 			children = (
-				DD4152ED1EE7892B00FF30AD /* Statistics */,
+				DDC1567B1EE79A5100C199B9 /* Statistics */,
 				DD4152AE1EE7802600FF30AD /* AppDelegate.h */,
 				DD4152AF1EE7802600FF30AD /* AppDelegate.m */,
 				DD4152B11EE7802600FF30AD /* ViewController.h */,
@@ -158,7 +158,7 @@
 			path = ASStatisticsUITests;
 			sourceTree = "<group>";
 		};
-		DD4152ED1EE7892B00FF30AD /* Statistics */ = {
+		DDC1567B1EE79A5100C199B9 /* Statistics */ = {
 			isa = PBXGroup;
 			children = (
 				DD4152DE1EE7809100FF30AD /* ASStatistics.h */,
@@ -173,7 +173,7 @@
 				DD4152EF1EE789E600FF30AD /* UIViewController+ASCommon.m */,
 				DD4152EA1EE7869600FF30AD /* Analysis.plist */,
 			);
-			name = Statistics;
+			path = Statistics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -555,6 +555,7 @@
 				DD4152D71EE7802700FF30AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD4152D81EE7802700FF30AD /* Build configuration list for PBXNativeTarget "ASStatisticsTests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +564,7 @@
 				DD4152DA1EE7802700FF30AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD4152DB1EE7802700FF30AD /* Build configuration list for PBXNativeTarget "ASStatisticsUITests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +573,7 @@
 				DD4152DD1EE7802700FF30AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
