@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/devasan/ASStatistics"
   
-  s.license      = 'MIT'
+  s.license      = "MIT"
   
   s.author             = { "asan" => "devasan@163.com" }
   s.social_media_url   = "http://devasan.com"
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/devasan/ASStatistics.git", :tag => "1.0.0" }
 
-  s.source_files = 'ASStatistics/Statistics/*.{h,m}'
+  s.source_files = 'ASStatistics/ASStatistics/Statistics/*.{h,m}'
 
   s.requires_arc = true
 
